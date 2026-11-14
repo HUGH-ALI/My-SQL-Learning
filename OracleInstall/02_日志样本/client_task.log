@@ -1,0 +1,6 @@
+﻿start 22:14:37
+SUCCESS: The scheduled task "OraClientInstall" has successfully been created.
+create_exit=0
+SUCCESS: Attempted to run the scheduled task "OraClientInstall".
+run_exit=0
+done 22:14:38

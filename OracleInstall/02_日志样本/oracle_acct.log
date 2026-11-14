@@ -1,0 +1,25 @@
+﻿start 21:57:00
+The command completed successfully.
+
+add_user_exit=0
+The command completed successfully.
+
+add_admin_exit=0
+SUCCESS: The scheduled task "OraDbInstall" has successfully been created.
+create_task_exit=0
+
+
+Name    : oracle
+Enabled : True
+
+
+
+
+
+Name : LAPTOP-SMS3QHLC\oracle
+
+
+
+SUCCESS: Attempted to run the scheduled task "OraDbInstall".
+run_task_exit=0
+done 21:57:01

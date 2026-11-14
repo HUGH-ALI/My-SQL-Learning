@@ -1,0 +1,25 @@
+﻿start 22:17:00
+SUCCESS: The scheduled task "OraDbInstall" was successfully deleted.
+del_db_exit=0
+SUCCESS: The scheduled task "OraClientInstall" was successfully deleted.
+del_client_exit=0
+The command completed successfully.
+
+disable_exit=0
+schtasks.exe : ERROR: The system cannot find the file specified.
+At D:\Oracle\downloads\cleanup_task.ps1:15 char:1
++ & $sc /query /tn OraDbInstall 2>&1 | Out-File -FilePath $log -Append  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: The syst...file specified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+schtasks.exe : ERROR: The system cannot find the file specified.
+At D:\Oracle\downloads\cleanup_task.ps1:16 char:1
++ & $sc /query /tn OraClientInstall 2>&1 | Out-File -FilePath $log -App ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: The syst...file specified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+done 22:17:01
