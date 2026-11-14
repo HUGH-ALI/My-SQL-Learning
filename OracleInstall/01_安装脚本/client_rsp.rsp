@@ -1,0 +1,11 @@
+oracle.install.responseFileVersion=/oracle/install/rspfmt_clientinstall_response_schema_v11_2_0
+ORACLE_HOSTNAME=LAPTOP-SMS3QHLC
+UNIX_GROUP_NAME=
+INVENTORY_LOCATION=C:\Program Files (x86)\Oracle\Inventory
+SELECTED_LANGUAGES=en
+ORACLE_HOME=D:\app\client\product\11.2.0\client_1
+ORACLE_BASE=D:\app\client
+oracle.install.client.installType=Runtime
+oracle.install.client.upgrading=false
+oracle.install.client.customComponents="oracle.sqlplus:11.2.0.4.0","oracle.rdbms.oci:11.2.0.4.0","oracle.network.client:11.2.0.4.0","oracle.network.listener:11.2.0.4.0","oracle.network.cman:11.2.0.4.0","oracle.nlsrtl.rsf:11.2.0.4.0","oracle.xdk:11.2.0.4.0","oracle.rdbms.util:11.2.0.4.0"
+oracle.installer.autoupdates.option=SKIP_UPDATES
